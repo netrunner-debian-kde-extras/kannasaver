@@ -2,8 +2,7 @@ Source: kannasaver
 Section: kde
 Priority: optional
 Maintainer: Frederik Schwarzer <schwarzer@gmail.com>
-Uploaders: TODO
-Build-Depends: debhelper (>= 7.0.50~), kdebase-workspace-dev (TODO), kdelibs5-dev (TODO)
+Build-Depends: debhelper (>= 7.0.50~), kdebase-workspace-dev (>= 4.0), kdelibs5-dev (>= 4.0)
 Standards-Version: 3.9.1
 Homepage: http://kde-apps.org/content/show.php/Kannasaver?content=16792
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kannasaver.git
@@ -19,4 +18,5 @@ Description: Japanese character screensaver for KDE
  display basic, extended, and compound characters from hiragana, katakana,
  or both simultaneously.
  .
- You should install a font with Japanese character support before using Kannasaver.
+ You should install a font with Japanese character support before using
+ Kannasaver.
