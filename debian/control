@@ -1,15 +1,22 @@
 Source: kannasaver
-Section: unknown
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Frederik Schwarzer <schwarzer@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake
+Uploaders: TODO
+Build-Depends: debhelper (>= 7.0.50~), kdebase-workspace-dev (TODO), kdelibs5-dev (TODO)
 Standards-Version: 3.9.1
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/kannasaver.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/kannasaver.git;a=summary
+Homepage: http://kde-apps.org/content/show.php/Kannasaver?content=16792
+Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kannasaver.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kannasaver.git;a=summary
 
 Package: kannasaver
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Japanese character screensaver for KDE
+ Kannasaver is a screensaver that displays random characters from the
+ Japanese syllabary, ideally causing them to stick in your memory after
+ you've viewed them a number of times. Kannasaver can be configured to
+ display basic, extended, and compound characters from hiragana, katakana,
+ or both simultaneously.
+ .
+ You should install a font with Japanese character support before using Kannasaver.
