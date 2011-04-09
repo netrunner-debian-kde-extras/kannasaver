@@ -2,7 +2,11 @@ Source: kannasaver
 Section: kde
 Priority: optional
 Maintainer: Frederik Schwarzer <schwarzer@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), kdebase-workspace-dev (>= 4.0), kdelibs5-dev (>= 4.0)
+Build-Depends: debhelper (>= 7.0.50~),
+               cmake (>= 2.8),
+               pkg-kde-tools (>= 0.5.0),
+               kdebase-workspace-dev (>= 4.0),
+               kdelibs5-dev (>= 4.0)
 Standards-Version: 3.9.1
 Homepage: http://kde-apps.org/content/show.php/Kannasaver?content=16792
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kannasaver.git
