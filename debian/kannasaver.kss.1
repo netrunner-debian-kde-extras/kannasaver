@@ -2,7 +2,7 @@
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH KANNASAVER 6 "April  2, 2011"
+.TH KANNASAVER 1 "June  19, 2011"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:
@@ -18,42 +18,55 @@
 .SH NAME
 kannasaver \- Japanese character screensaver for KDE 4
 .SH SYNOPSIS
-.B kannasaver
-.RI [ options ] " files" ...
-.br
-.B bar
-.RI [ options ] " files" ...
+.B kannasaver.kss
+.RI [Qt-options] [KDE-options] [options]
 .SH DESCRIPTION
 This manual page documents briefly the
 .B kannasaver
-and
-.B bar
-commands.
+command. Kannasaver is usually run through the KDE Systemsettings
+.B Display and Monitor -> Screensaver
+module.
 .PP
-.\" TeX users may be more comfortable with the \fB<whatever>\fP and
-.\" \fI<whatever>\fP escape sequences to invode bold face and italics,
-.\" respectively.
-\fBkannasaver\fP is a program that...
 .SH OPTIONS
-These programs follow the usual GNU command line syntax, with long
-options starting with two dashes (`-').
-A summary of options is included below.
-For a complete description, see the Info files.
 .TP
-.B \-h, \-\-help
-Show summary of options.
+.B \-\-help
+Show help about options.
+.TP
+.B \-\-help-qt
+Show Qt specific options.
+.TP
+.B \-\-help-kde
+Show KDE specific options.
+.TP
+.B \-\-help-all
+Show all options.
+.TP
+.B \-\-author
+Show author information.
 .TP
 .B \-v, \-\-version
-Show version of program.
-.SH SEE ALSO
-.BR bar (1),
-.BR baz (1).
-.br
-The programs are documented fully by
-.IR "The Rise and Fall of a Fooish Bar" ,
-available via the Info system.
+Show version information.
+.TP
+.B \-\-license
+Show license information
+.TP
+.B \-\-
+End of options.
+.TP
+.B \-\-setup
+Setup Kannasaver
+.TP
+.B \-\-window-id wid
+Run in the specified XWindow
+.TP
+.B \-\-root
+Run in the root XWindow
+.TP
+.B \-\-demo
+Start Kannasaver in demo mode (default)
 .SH AUTHOR
-kannasaver was written by <upstream author>.
+Kannasaver was written by Mathias Homann and is now maintained
+by Frederik Schwarzer.
 .PP
 This manual page was written by Frederik Schwarzer <schwarzerf@gmail.com>,
 for the Debian project (and may be used by others).
