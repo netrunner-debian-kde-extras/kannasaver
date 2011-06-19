@@ -19,9 +19,6 @@ Recommends: ttf-sazanami-gothic
 Description: Japanese character screensaver for KDE
  Kannasaver is a screensaver that displays random characters from the
  Japanese syllabary, ideally causing them to stick in your memory after
- you've viewed them a number of times. Kannasaver can be configured to
+ you have viewed them a number of times. Kannasaver can be configured to
  display basic, extended, and compound characters from hiragana, katakana,
  or both simultaneously.
- .
- You should install a font with Japanese character support before using
- Kannasaver.
