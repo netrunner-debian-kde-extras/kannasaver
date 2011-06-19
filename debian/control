@@ -14,7 +14,8 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kannasaver.git;a=summar
 
 Package: kannasaver
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sazanami-mincho
+Recommends: ttf-sazanami-gothic
 Description: Japanese character screensaver for KDE
  Kannasaver is a screensaver that displays random characters from the
  Japanese syllabary, ideally causing them to stick in your memory after
