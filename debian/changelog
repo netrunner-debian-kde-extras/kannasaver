@@ -3,7 +3,7 @@ kannasaver (1.2.1-1) unstable; urgency=low
   * Initial release of the KDE 4 version. (Closes: #612207)
   * Switch to debhelper.
 
- -- Frederik Schwarzer <schwarzer@gmail.com>  Mon, 11 Apr 2011 23:26:58 +0200
+ -- Frederik Schwarzer <schwarzerf@gmail.com>  Mon, 11 Apr 2011 23:26:58 +0200
 
 kannasaver (1.1.1-4.1) unstable; urgency=low
 

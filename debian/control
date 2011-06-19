@@ -1,7 +1,7 @@
 Source: kannasaver
 Section: kde
 Priority: optional
-Maintainer: Frederik Schwarzer <schwarzer@gmail.com>
+Maintainer: Frederik Schwarzer <schwarzerf@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~),
                cmake (>= 2.8),
                pkg-kde-tools (>= 0.5.0),
