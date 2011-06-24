@@ -3,10 +3,10 @@ Upstream-Name: kannasaver
 Source: http://kde-look.org/content/show.php/kannasaver?content=16792
 
 Files: *
-Copyright: 2004 Mathias Homann <Mathias.Homann@eregion.de>
-           2009,2010,2011 Frederik Schwarzer <schwarzer@gmail.com>
-           2010 Stefan Böhmann <kde@hilefoks.org>
-License: GPL-2+
+Copyright:  2004 Mathias Homann <Mathias.Homann@eregion.de>
+            2009, 2010, 2011 Frederik Schwarzer <schwarzer@gmail.com>
+            2010 Stefan Böhmann <kde@hilefoks.org>
+License:    GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
@@ -23,9 +23,34 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
+Files: po/*
+Copyright:  2010, 2011 Vít Pelčák <vit@pelcak.org> (cs)
+            2010 Martin Schlander <mschlander@opensuse.org> (da)
+            2005 Mathias Homann <lemmy@megatokyo.de> (de)
+            2009 Burkhard Lück <lueck@hube-lueck.de> (de)
+            2009, 2010 Frederik Schwarzer <schwarzerf@gmail.com> (de)
+            2009, 2010 Andrew Coles <andrew_coles@yahoo.co.uk> (en_GB)
+            2010 Kira J. Fernandez <kirajfdez@gmail.com> (es)
+            2009, 2010 Marek Laane <bald@smail.ee> (et)
+            2010, 2011 Kristóf Kiszel <ulysses@kubuntu.org> (hu)
+            2010 Valter Mura <valtermura@gmail.com> (it)
+            2010 Bjørn Steensrud <bjornst@skogkatt.homelinux.org> (nb)
+            2010 Manfred Wiese <m.j.wiese@web.de> (nds)
+            2007 Ronald Stroethoff <stroet43@zonnet.nl> (nl)
+            2009, 2010 Freek de Kruijf <freekdekruijf@kde.nl> (nl)
+            2009, 2010 André Marcelo Alvarenga <andrealvarenga@gmx.net> (pt_BR)
+            2010 José Nuno Coelho Pires <zepires@gmail.com> (pt)
+            2010 Yury Kozlov <moreover-box@bk.ru> (ru)
+            2010, 2011 Alexander Potashev <aspotashev@gmail.com> (ru)
+            2009, 2010 Stefan Asserhall <stefan.asserhall@comhem.se> (sv)
+            2010 Phuwanat Sakornsakolpat <narachai@gmail.com> (th)
+            2009, 2010 Yuri Chornoivan <yurchor@ukr.net> (uk)
+            2010 Franklin Weng <franklin@mail.everfocus.com.tw> (zh_TW)
+License:    GPL-2+
+
 Files: debian/*
-Copyright: 2011 Frederik Schwarzer <schwarzer@gmail.com>
-License: GPL-2+
+Copyright:  2011 Frederik Schwarzer <schwarzer@gmail.com>
+License:    GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
