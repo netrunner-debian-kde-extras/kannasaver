@@ -1,18 +1,14 @@
-kannasaver (1.2.1-2) unstable; urgency=low
+kannasaver (1.2.1-1) unstable; urgency=low
 
   * Fix email address in several places.
   * Fill manpage with useful info.
   * Add Japanese fonts to Depends. Without these
     fonts Kannasaver does not show any Kana.
-
- -- Frederik Schwarzer <schwarzerf@gmail.com>  Sun, 19 Jun 2011 15:30:58 +0200
-
-kannasaver (1.2.1-1) unstable; urgency=low
-
+  * Add copyright information for non-source files.
   * Initial release of the KDE 4 version. (Closes: #612207)
   * Switch to debhelper.
 
- -- Frederik Schwarzer <schwarzerf@gmail.com>  Mon, 11 Apr 2011 23:26:58 +0200
+ -- Frederik Schwarzer <schwarzerf@gmail.com>  Mon, 2 Jul 2011 23:26:58 +0200
 
 kannasaver (1.1.1-4.1) unstable; urgency=low
 
